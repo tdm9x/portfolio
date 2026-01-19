@@ -1,6 +1,6 @@
 body {
-    background-color: #111010;
-    color: white;
+    background-color: #f2f2f4;
+    color: #111010;
     font-family: "Geist", sans-serif;
     align-items: center;
     z-index: 100;
@@ -14,14 +14,13 @@ body {
 }
 
 header {
-    background-color: #0000006e;
+    background-color: #f2f2f4;
     width: 100%;
     top: 0;
     left: 0;
     padding: 8px 40px;
     position: fixed;
     display: flex;
-    margin-top: 10px;
     justify-content: space-between;
     box-sizing: border-box;
     border-radius: 32px;
@@ -30,23 +29,27 @@ header {
     transition: top 0.2s ease-in-out;
     margin-bottom: auto;
     backdrop-filter: blur(10px);
-    border: white solid 2px;
+    
 }
 
 .navigation a {
     position: relative;
     font-size: 16px;
     text-decoration: none;
-    color: white;
+    color: #111010;
     margin-left: 20px;
     font-weight: 400;
     justify-content: space-between;
    
 }
+.header a {
+    text-decoration: none;
+    color: #111010;
+}
 
 .highlight {
     border-radius: 20px;
-    border:#53c070 solid 2px;
+    border:#298d44 solid 2px;
     padding: 10px;
 }
 
