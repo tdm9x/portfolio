@@ -52,12 +52,19 @@ header {
 
 .posts {
    margin-top: 100px;
-   grid-template-columns: (5, 1fr);
+   
 }
+
+
 
 a {
     text-decoration: none;
     color: white;
     justify-content: space-between;
     padding-right: 20px;
+}
+
+img {
+    align-items: center;
+    justify-content: center;
 }
