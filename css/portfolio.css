@@ -81,7 +81,7 @@ header {
     font-weight: 600;
 }
 
-a {
+.posts a {
     text-decoration: none;
     color: #111010;
     justify-content: space-between;
@@ -92,9 +92,11 @@ a {
 img {
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .text {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #indicator {
@@ -104,3 +106,15 @@ img {
           text-decoration-style: solid; 
             text-underline-offset: 4px;
     }
+
+.guide a {
+    text-decoration: underline;
+    text-decoration-color: #111010;
+    color: #111010;
+}
+
+.guide a:hover {
+    color: #0b862c;
+    text-decoration-color: #0b862c;
+    margin-bottom: 100px;
+}

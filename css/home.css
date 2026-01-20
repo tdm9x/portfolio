@@ -98,7 +98,7 @@ a {
     margin: 0 auto;
 }
 
-.button {
+.button a{
     margin: 0 auto;
     justify-content: center;
     padding: 10px;
@@ -107,6 +107,7 @@ a {
     border: white solid;
     color: white;
     text-align: center;
+    align-items: center;
     width: fit-content;
     cursor: pointer;
     text-decoration: none;
@@ -114,10 +115,9 @@ a {
     transition: ease-in-out 0.3ms;
 }
 
-.button:hover {
-    background-color: #53c070;
+.button:hover a{
+    background-color: #298d44;
     color: black;
-    border: none;
     transition: ease-in-out 0.3ms;
 }
 
