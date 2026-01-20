@@ -118,3 +118,18 @@ img {
     text-decoration-color: #0b862c;
     margin-bottom: 100px;
 }
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: white;
+        font-family: "Geist", sans-serif;
+        color: black;
+        padding: 40px 50px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+}

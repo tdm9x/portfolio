@@ -136,5 +136,19 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: white;
+        font-family: "Geist", sans-serif;
+        color: black;
+        padding: 40px 50px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+}
 
 
