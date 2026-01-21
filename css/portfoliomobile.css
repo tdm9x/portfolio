@@ -4,8 +4,6 @@ body {
     font-family: "Geist", sans-serif;
     align-items: center;
     z-index: 100;
-    padding-left: 200px;
-    padding-right: 200px;
     padding-top: 40px;
     margin-bottom: 40px;
     justify-content: center;
@@ -121,17 +119,3 @@ img {
     margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 480px) {
-    body {
-        background-color: white;
-        font-family: "Geist", sans-serif;
-        color: black;
-       
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        overflow-x: hidden;
-    }
-}
