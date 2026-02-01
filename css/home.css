@@ -138,3 +138,47 @@ a {
 
 
 
+@media (max-width: 480px) {
+    body {
+        padding: 0;
+    }
+
+    .introtext h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.introtext p {
+    text-align: center;
+   
+}
+
+.intro {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+    
+    .introtext h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.introtext p {
+    text-align: center;
+   
+}
+
+.intro {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+}
