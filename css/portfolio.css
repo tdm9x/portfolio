@@ -11,6 +11,7 @@ body {
     justify-content: center;
     box-sizing: border-box;
     position: static;
+    grid-template-columns: auto auto auto;
 }
 
 header {
@@ -84,8 +85,11 @@ header {
 .posts a {
     text-decoration: none;
     color: #111010;
-    justify-content: space-between;
-    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.postlink {
+    display: grid;
 }
 
 
@@ -121,17 +125,9 @@ img {
     margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     body {
-        background-color: white;
-        font-family: "Geist", sans-serif;
-        color: black;
-       
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        overflow-x: hidden;
+        padding: 0;
     }
+
 }
