@@ -75,6 +75,10 @@ header {
    
 }
 
+.postlink {
+    display: grid;
+}
+
 
 
 .posts a:hover {
@@ -83,7 +87,7 @@ header {
 }
 
 .posts a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #111010;
     margin-bottom: 10px;
 }
