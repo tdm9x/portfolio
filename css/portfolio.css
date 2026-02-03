@@ -124,7 +124,7 @@ img {
 .guide a:hover {
     color: #0b862c;
     text-decoration-color: #0b862c;
-    margin-bottom: 100px;
+    
 }
 
 @media (max-width: 480px) {
